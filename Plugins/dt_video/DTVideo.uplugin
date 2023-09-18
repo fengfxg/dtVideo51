@@ -1,0 +1,41 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DTVideo",
+	"Description": "",
+	"Category": "DT",
+	"CreatedBy": "Dexter",
+	"CreatedByURL": "https://blog.csdn.net/wmy19890322/",
+	"DocsURL": "https://blog.csdn.net/wmy19890322/article/details/122345067",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1799eb6e5c724d3b852fc4fd1b3c61ae",
+	"SupportURL": "https://blog.csdn.net/wmy19890322/article/details/122345067",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"LocalizationTargets": [
+		{
+			"Name": "DTVideo",
+			"LoadingPolicy": "Editor"
+		}
+	],
+	"Modules": [
+		{
+			"Name": "DTVideo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			],
+			"BlacklistPlatforms": [
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HardwareEncoders",
+			"Enabled": true
+		}
+	]
+}
